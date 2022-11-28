@@ -33,6 +33,23 @@
             };
 
 
+              window.CustomSubstackWidget = {
+              substackUrl: "codeisforhumans.substack.com",
+              placeholder: "example@gmail.com",
+              buttonText: "Subscribe",
+              theme: "custom",
+              colors: {
+                 primary: "#C4C4C4",
+                input: "#FFFFFF",
+                email: "#C7C7C7",
+                text: "#000000",
+              }
+            };
+
+
+
+
+
     </script>
     <script src="https://substackapi.com/widget.js" async></script>
 </head>
@@ -56,9 +73,9 @@
     <main>
         <div class="row g-5">
             <div class="col-md-12">
-                <h2>
+                <h3 style="color:#ba3925">
                     About the book
-                </h2>
+                </h3>
                 <p>
                     This book is a compilation of what I have learned from decades of writing software, exploring my
                     cognitive abilities, and working with other humans. It is inspired by years of seeing
@@ -73,56 +90,89 @@
                     teach them how to balance concerns, cut the correct corners, defend against entropy, reduce
                     complexity, and deal with our human cognitive limitations.
                 <p>
+            </div>
+        </div>
+        <div class="row g-5 mt-5">
+
+            <div class="col-md-7 g-2">
+                <h4 style="color:#ba3925">
+                    About the author
+                </h4>
+                <p>
+                    Zohar Jackson has had a unique career in software development. He served as a Software Architect at
+                    Mobileye (Israel's largest startup exit) leading a 100+ person engineering team. He has worked on a
+                    large variety of software such as self-driving cars, web apps, projects with intelligence agencies,
+                    automated trading for finance firms, massive distributed systems, embedded devices and more.
+                </p>
+                <p>
+                    In his youth Zohar spent time living a forest, starting a commune, making bombs, hacking things he
+                    shouldn't have, hitchhiking, and of course writing copious amounts of software.
+                </p>
+                <p>
+                    As an aspiring generalist both in software and in life Zohar brings in ideas from a variety of
+                    fields such as design, cognitive science, and physics.
+                </p>
+            </div>
+            <div class="col-md-1"></div>
+
+            <div class="col-md-4 ">
+                <h4 style="color:#ba3925">
+                   Follow us on Twitter
+                </h4>
+                </p>
+                    <a href="https://twitter.com/codeisforhumans/" class="text-dark"><i class="fa-brands fa-twitter"></i> @Codeisforhumans</a>
+                </p>
 
             </div>
         </div>
-    </main>
+</div>
+</main>
 
 
-    <footer style=";" class="small border-top mt-5">
-        <div class="container pt-4">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <h5 class="mb-3" style="">write to me</h5>
-                    <p>
-                        Have feedback? Got suggestions? Just want to complain? I would love to hear from you!
-                    </p>
-                    <p>
-                        <a href="mailto:hello@codeisforhumans.com" class="text-dark"><i class="fa fa-envelope"
-                                                                                        aria-hidden="true"></i>
-                            hello@codeisforhumans.com</a>
-                    </p>
-
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4 pd-2">
-                    <h5 class="mb-3" style="">links</h5>
-                    <ul class="list-unstyled mb-0">
-                        <li class="mb-1">
-                            <a href="#!" class="text-dark">LeanPub</a>
-                        </li>
-                        <li class="mb-1">
-                            <a href="#!" class="text-dark">Substack</a>
-                        </li>
-                        <li class="mb-1">
-                            <a href="https://twitter.com/codeisforhumans/" class="text-dark">Twitter</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-5 col-md-12 mb-4">
-                    <h5 class="mb-1" style="">mailing list</h5>
-                    <p>
-                        Get new chapters as they are released
-                    </p>
-                    <div id="custom-substack-embed"></div>
-                </div>
+<footer style=";" class="small border-top mt-5">
+    <div class="container pt-4">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <h5 class="mb-3" style="">write to me</h5>
+                <p>
+                    Have feedback? Got suggestions? Just want to complain? I would love to hear from you!
+                </p>
+                <p>
+                    <a href="mailto:hello@codeisforhumans.com" class="text-dark"><i class="fa fa-envelope"
+                                                                                    aria-hidden="true"></i>
+                        hello@codeisforhumans.com</a>
+                </p>
 
             </div>
-            <div class="text-center border-top p-3" style="">
-                © 2023 Copyright:
-                <a class="text-dark" href="https://CodeIsForHumans.com/">CodeIsForHumans.com</a>
+            <div class="col-lg-3 col-md-6 mb-4 pd-2">
+                <h5 class="mb-3" style="">links</h5>
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-1">
+                        <a href="#!" class="text-dark">LeanPub</a>
+                    </li>
+                    <li class="mb-1">
+                        <a href="#!" class="text-dark">Substack</a>
+                    </li>
+                    <li class="mb-1">
+                        <a href="https://twitter.com/codeisforhumans/" class="text-dark">Twitter</a>
+                    </li>
+                </ul>
             </div>
+            <div class="col-lg-5 col-md-12 mb-4">
+                <h5 class="mb-1" style="">mailing list</h5>
+                <p>
+                    Get new chapters as they are released
+                </p>
+                <div id="custom-substack-embed"></div>
+            </div>
+
         </div>
-    </footer>
+        <div class="text-center border-top p-3" style="">
+            © 2023 Copyright:
+            <a class="text-dark" href="https://CodeIsForHumans.com/">CodeIsForHumans.com</a>
+        </div>
+    </div>
+</footer>
 </div>
 
 
