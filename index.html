@@ -9,9 +9,17 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5280H5FLKR"></script>
     <script>
-             window.CustomSubstackWidget = {
+
+          // Google analytics
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-5280H5FLKR');
+
+          // Substack
+          window.CustomSubstackWidget = {
               substackUrl: "codeisforhumans.substack.com",
               placeholder: "example@gmail.com",
               buttonText: "Subscribe",
@@ -23,6 +31,8 @@
                 text: "#000000",
               }
             };
+
+
     </script>
     <script src="https://substackapi.com/widget.js" async></script>
 </head>
@@ -38,7 +48,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12 text-muted" >
+            <div class="col-md-12 text-muted">
                 Human centric principles of software engineering
             </div>
         </div>
