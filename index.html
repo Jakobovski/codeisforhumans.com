@@ -3,12 +3,12 @@
 <head>
 
     <style>
-        .justify {
-            text-align: justify;
-        }
-
         .h-color {
             /*color: #007bff;*/
+        }
+
+        h3:not(:first-child) {
+            margin-top: 1em;
         }
     </style>
 
@@ -17,7 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="/favicon.png">
 
-    <title>Code is for Humans</title>
+    <title>Code Is for Humans</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
@@ -56,9 +56,8 @@
         <div class="row">
             <div class="col-md-12">
                 <a href="/" class="align-items-center text-dark text-decoration-none">
-                    <h1 class="h-color">Code is for Humans</h1>
+                    <h1 class="h-color">Code Is for Humans</h1>
                 </a>
-
             </div>
         </div>
         <div class="row">
@@ -68,7 +67,7 @@
 
         </div>
     </header>
-    <main>
+    <main class="container">
         <div class="row g-5">
             <div class="col-md-4 mb-5">
                 <a href="https://leanpub.com/code-is-for-humans">
@@ -79,100 +78,123 @@
                 <div class="text-center">
                     <hr>
                     <p>
-                        Now available at LeanPub.com
+                        Now available at <a href="https://leanpub.com/code-is-for-humans">LeanPub.com</a> and <a
+                            href="https://a.co/d/hO1XImD">Amazon</a>!
                     </p>
-                    <a href="https://leanpub.com/code-is-for-humans">
-                        <button type="button" class="btn btn-primary">Get It Free!</button>
-                    </a>
+                    <p>
+                        <a href="https://a.co/d/hO1XImD">
+                            <img src="amazon-button.png" class="img-fluid" style="max-width:60%; ">
+                        </a>
+                    </p>
                 </div>
             </div>
             <div class="col-md-1">
             </div>
-            <div class="col-md-7 text-justify">
+            <div class="col-md-7">
                 <h3 class="h-color">
-                    About the book
+                    About the Book
+                </h3>
+                <p class="text-justify">
+                    To write better code and build better products, we must understand why engineering and design often
+                    fail. Why is it so difficult to write bug-free code? Why do people fail to use products? And why do
+                    engineering projects so often go sideways?
+                </p>
+                <p class="text-justify">
+                    The answer to these questions lies in the shortcomings of human cognition and the nature of
+                    complexity. This book explores these topics and presents a human-centric approach to software
+                    engineering. An approach that considers and compensates for our cognitive biases, cognitive
+                    weaknesses, and the chaotic nature of the universe. An approach that teaches how to balance
+                    concerns, defend against entropy, take precautions, reduce complexity, and deal with our cognitive
+                    shortcomings.
+                </p>
+                <p class="text-justify">
+                    The ideas presented will help you write better code, build better products, and be a more effective
+                    engineer.
+                </p>
+                <p class="text-justify">
+                    This book is the first part of a two-book series. This book focuses on theory and contains almost no
+                    code, while Book II is more technical and uses code examples and case studies to demonstrate how to
+                    apply the theory.
+                </p>
+
+                <h3 class="h-color">
+                    About the Author
+                </h3>
+                <p class="text-justify">
+                    Zohar Jackson served as a Software Architect at Mobileye (Israel's top tech company) and Vice
+                    President of Engineering at Visionary.ai. Over twenty years of writing software has led him to work
+                    on a large variety of software, including self-driving cars, web applications, automated trading for
+                    financial firms, computational photography, machine learning, and distributed systems.
+                </p>
+                <h3 class="h-color">
+                    Get the Book
                 </h3>
                 <p>
-                   To write better code and build better products we must understand why engineering and design often fail. Why is it so difficult to write bug-free code? Why do people fail to use products? And why do engineering projects go sideways?
+                    Get the eBook for free at <a href="https://leanpub.com/code-is-for-humans">LeanPub.com</a> or order
+                    a print copy from <a href="https://a.co/d/hO1XImD">Amazon</a>!
                 </p>
-                <p>
-The answer to these questions lies in the shortcomings of human cognition and the nature of complexity. This book explores these topics and presents a human-centric approach to software engineering. An approach that considers and compensates for our cognitive biases, cognitive weaknesses, and the chaotic nature of the universe. The ideas presented will help you write better code, build better products, and be a more effective engineer.
-                </p>
-                <p>
-This book is the first part of a two-book series. This part, Part I, focuses on theory and contains almost no code, while Part II is more technical and teaches how to apply the theory using code examples and case studies.
-                </p>
-
-                 <h4 class="h-color">
-                    About the author
-                </h4>
-                <p>
-                  Zohar Jackson served as a Software Architect at Mobileye (Israel's top tech company) and Vice President of Engineering at Visionary.ai. Over twenty years of writing software has led him to work on a large variety of software, including self-driving cars, web applications, projects with intelligence agencies, automated trading for financial firms, computational photography, machine learning, and distributed systems.
-                </p>
+                <a href="https://a.co/d/hO1XImD">
+                    <img src="amazon-button.png" class="img-fluid" style="max-width:90%; max-height: 60px;">
+                </a>
+                <br><br>
+                <a href="https://leanpub.com/code-is-for-humans">
+                    <button type="button" class="btn btn-dark">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-download" viewBox="0 0 16 16">
+                            <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                            <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                        </svg>
+                        &nbsp; Get the Free PDF at LeanPub!
+                    </button>
+                </a>
             </div>
         </div>
-        <div class="row d-flex justify-content-between ">
-<!--            <div class="col-lg-12 col-md-6 mt-5">-->
-<!--                <h4 class="h-color">-->
-<!--                    About the author-->
-<!--                </h4>-->
-<!--                <p>-->
-<!--                  Zohar Jackson served as a Software Architect at Mobileye (Israel's top tech company) and Vice President of Engineering at Visionary.ai. Over twenty years of writing software has led him to work on a large variety of software, including self-driving cars, web applications, projects with intelligence agencies, automated trading for financial firms, computational photography, machine learning, and distributed systems.-->
-<!--                </p>-->
-<!--            </div>-->
-<!--            <div class="col-lg-4 col-md-5 mt-5">-->
-<!--                <h4 class="h-color">-->
-<!--                    Follow us on Twitter-->
-<!--                </h4>-->
-<!--                <a href="https://twitter.com/codeisforhumans/" class="text-dark"><i class="fa-brands fa-twitter"></i>-->
-<!--                    @Codeisforhumans</a>-->
-
-<!--            </div>-->
-        </div>
-</div>
-</main>
+        <!--        <div class="row d-flex justify-content-between ">-->
+        <!--        </div>-->
+    </main>
 
 
-<footer style=";" class="small border-top mt-5">
-    <div class="container pt-4">
-        <div class="row">
-            <div class="col-lg-4 col-md-6 mb-4">
-                <h5 class="mb-3" style="">write to me</h5>
-                <p>
-                    Have feedback? Got suggestions? Just want to complain? I would love to hear from you!
-                </p>
-                <p>
-                    <a href="mailto:zohar@codeisforhumans.com" class="text-dark"><i class="fa fa-envelope"
-                                                                                    aria-hidden="true"></i>
-                        zohar@codeisforhumans.com</a>
-                </p>
+    <footer style=";" class="small border-top mt-5">
+        <div class="container pt-4">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5 class="mb-3" style="">write to me</h5>
+                    <p>
+                        Have feedback? Got suggestions? Just want to complain? I would love to hear from you!
+                    </p>
+                    <p>
+                        <a href="mailto:zohar@codeisforhumans.com" class="text-dark"><i class="fa fa-envelope"
+                                                                                        aria-hidden="true"></i>
+                            zohar@codeisforhumans.com</a>
+                    </p>
+
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 pd-2">
+                    <h5 class="mb-3" style="">links</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-1">
+                            <a href="https://leanpub.com/code-is-for-humans" class="text-dark">LeanPub</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="https://twitter.com/codeisforhumans/" class="text-dark">Twitter</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 col-md-12 mb-4">
+                    <h5 class="mb-1" style="">mailing list</h5>
+                    <p>
+                        Get new chapters as they are released
+                    </p>
+                    <div id="custom-substack-embed"></div>
+                </div>
 
             </div>
-            <div class="col-lg-3 col-md-6 mb-4 pd-2">
-                <h5 class="mb-3" style="">links</h5>
-                <ul class="list-unstyled mb-0">
-                    <li class="mb-1">
-                        <a href="https://leanpub.com/code-is-for-humans" class="text-dark">LeanPub</a>
-                    </li>
-                    <li class="mb-1">
-                        <a href="https://twitter.com/codeisforhumans/" class="text-dark">Twitter</a>
-                    </li>
-                </ul>
+            <div class="text-center border-top p-3" style="">
+                © 2023 Copyright:
+                <a class="text-dark" href="https://CodeIsForHumans.com/">CodeIsForHumans.com</a>
             </div>
-            <div class="col-lg-5 col-md-12 mb-4">
-                <h5 class="mb-1" style="">mailing list</h5>
-                <p>
-                    Get new chapters as they are released
-                </p>
-                <div id="custom-substack-embed"></div>
-            </div>
-
         </div>
-        <div class="text-center border-top p-3" style="">
-            © 2023 Copyright:
-            <a class="text-dark" href="https://CodeIsForHumans.com/">CodeIsForHumans.com</a>
-        </div>
-    </div>
-</footer>
+    </footer>
 </div>
 
 
